@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Meta Front-End Developer",
+    "issuer": "Meta (Coursera)",
+    "date": "2024",
+    "description": "Completed the Meta Front-End Developer Professional Certificate covering React, HTML, CSS, and modern web development practices.",
+    "credentialUrl": "https://coursera.org/verify",
+    "badge": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=200&q=80",
+    "color": "#0866FF"
+  },
+  {
+    "id": 2,
+    "title": "AWS Cloud Practitioner",
+    "issuer": "Amazon Web Services",
+    "date": "2024",
+    "description": "Foundational understanding of AWS Cloud concepts, services, security, architecture, pricing, and support.",
+    "credentialUrl": "https://aws.amazon.com/verify",
+    "badge": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?w=200&q=80",
+    "color": "#FF9900"
+  },
+  {
+    "id": 3,
+    "title": "Google UX Design",
+    "issuer": "Google (Coursera)",
+    "date": "2023",
+    "description": "Professional certificate in UX design covering user research, wireframing, prototyping, and usability testing.",
+    "credentialUrl": "https://grow.google/certificates",
+    "badge": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=200&q=80",
+    "color": "#4285F4"
+  },
+  {
+    "id": 4,
+    "title": "JavaScript Algorithms & Data Structures",
+    "issuer": "freeCodeCamp",
+    "date": "2023",
+    "description": "Certification covering JavaScript fundamentals, ES6, regular expressions, debugging, data structures, and algorithm scripting.",
+    "credentialUrl": "https://freecodecamp.org/certification",
+    "badge": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=200&q=80",
+    "color": "#0A0A23"
+  },
+  {
+    "id": 5,
+    "title": "MongoDB Associate Developer",
+    "issuer": "MongoDB University",
+    "date": "2024",
+    "description": "Certified MongoDB developer with expertise in data modeling, CRUD operations, aggregation, and indexing.",
+    "credentialUrl": "https://university.mongodb.com",
+    "badge": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&q=80",
+    "color": "#00684A"
+  },
+  {
+    "id": 6,
+    "title": "Responsive Web Design",
+    "issuer": "freeCodeCamp",
+    "date": "2022",
+    "description": "Certification covering HTML5, CSS3, Flexbox, CSS Grid, and responsive layout techniques for all device sizes.",
+    "credentialUrl": "https://freecodecamp.org/certification",
+    "badge": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=200&q=80",
+    "color": "#0A0A23"
+  }
+]

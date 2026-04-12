@@ -1,0 +1,26 @@
+{
+  "frontend": [
+    { "name": "React", "level": 90, "icon": "SiReact" },
+    { "name": "Next.js", "level": 88, "icon": "SiNextdotjs" },
+    { "name": "TypeScript", "level": 80, "icon": "SiTypescript" },
+    { "name": "JavaScript", "level": 92, "icon": "SiJavascript" },
+    { "name": "HTML5", "level": 95, "icon": "SiHtml5" },
+    { "name": "CSS3", "level": 90, "icon": "SiCss3" }
+  ],
+  "backend": [
+    { "name": "Node.js", "level": 85, "icon": "SiNodedotjs" },
+    { "name": "Express.js", "level": 85, "icon": "SiExpress" },
+    { "name": "Python", "level": 75, "icon": "SiPython" },
+    { "name": "MongoDB", "level": 82, "icon": "SiMongodb" },
+    { "name": "PostgreSQL", "level": 70, "icon": "SiPostgresql" },
+    { "name": "REST APIs", "level": 90, "icon": "SiPostman" }
+  ],
+  "tools": [
+    { "name": "Git & GitHub", "level": 90, "icon": "SiGithub" },
+    { "name": "Docker", "level": 65, "icon": "SiDocker" },
+    { "name": "Vercel", "level": 88, "icon": "SiVercel" },
+    { "name": "VS Code", "level": 95, "icon": "SiVisualstudiocode" },
+    { "name": "Figma", "level": 70, "icon": "SiFigma" },
+    { "name": "Firebase", "level": 78, "icon": "SiFirebase" }
+  ]
+}

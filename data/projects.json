@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Netflix Clone",
+    "description": "A full-stack Netflix clone with Next.js, MongoDB, NextAuth, and TMDB API. Features user authentication, watchlist, and dynamic movie data.",
+    "techStack": ["Next.js", "MongoDB", "NextAuth", "TMDB API", "CSS Modules"],
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
+    "githubUrl": "https://github.com/dharm",
+    "liveUrl": "https://netflix-clone.vercel.app",
+    "category": "Web",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce Platform",
+    "description": "A modern e-commerce platform with product management, cart, Stripe payments, and an admin dashboard. Built with React and Node.js.",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+    "githubUrl": "https://github.com/dharm",
+    "liveUrl": "https://ecommerce.vercel.app",
+    "category": "Web",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Task Manager App",
+    "description": "A productivity-focused task management app with drag-and-drop boards, priority labels, deadlines, and team collaboration features.",
+    "techStack": ["React", "TypeScript", "Firebase", "Tailwind CSS"],
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&q=80",
+    "githubUrl": "https://github.com/dharm",
+    "liveUrl": "https://taskmanager.vercel.app",
+    "category": "Web",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Weather Dashboard",
+    "description": "A real-time weather dashboard with 7-day forecasts, location search, and interactive charts using OpenWeather API.",
+    "techStack": ["React", "Chart.js", "OpenWeather API", "CSS Modules"],
+    "image": "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
+    "githubUrl": "https://github.com/dharm",
+    "liveUrl": "https://weather.vercel.app",
+    "category": "API",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Portfolio Website",
+    "description": "This very portfolio — a full-stack animated portfolio website built with Next.js, Framer Motion, and a Node.js contact backend.",
+    "techStack": ["Next.js", "Framer Motion", "Nodemailer", "CSS"],
+    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80",
+    "githubUrl": "https://github.com/dharm",
+    "liveUrl": "#",
+    "category": "Web",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "title": "Chat Application",
+    "description": "A real-time chat application with rooms, private messages, and emoji support. Built with Socket.IO and Express.",
+    "techStack": ["React", "Socket.IO", "Express", "Node.js", "MongoDB"],
+    "image": "https://images.unsplash.com/photo-1611746869696-d09bce200020?w=800&q=80",
+    "githubUrl": "https://github.com/dharm",
+    "liveUrl": "https://chat.vercel.app",
+    "category": "Web",
+    "featured": false
+  }
+]
