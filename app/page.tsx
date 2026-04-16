@@ -6,17 +6,23 @@ import Projects from '@/components/Projects';
 import Certifications from '@/components/Certifications';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import { FallingPattern } from "@/components/ui/falling-pattern";
 
 export default function Home() {
   return (
     <>
-      {/* Background ambient orbs */}
-      <div className="bg-orb bg-orb-1" aria-hidden="true" />
-      <div className="bg-orb bg-orb-2" aria-hidden="true" />
-      <div className="bg-orb bg-orb-3" aria-hidden="true" />
+      <div className="fixed inset-0 -z-10">
+        <FallingPattern
+          color="#0066ff"
+          duration={120}
+          blurIntensity="0.4rem"
+          density={1.5}
+          className="opacity-50"
+        />
+      </div>
 
       <Navbar />
-      <main>
+      <main className="relative">
         <Hero />
         <About />
         <Skills />

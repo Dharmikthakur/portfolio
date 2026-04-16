@@ -1,4 +1,5 @@
 import './globals.css';
+import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Dharmik Thakur | Full Stack Developer',
@@ -12,9 +13,9 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
