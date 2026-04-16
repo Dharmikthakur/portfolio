@@ -8,38 +8,38 @@ const ROLES = ['Full Stack Developer', 'React Enthusiast', 'UI/UX Lover', 'Open 
 
 export default function Hero() {
   const roleRef = useRef(null);
-  let roleIndex = 0;
-  let charIndex = 0;
-  let deleting = false;
+  const roleIndexRef = useRef(0);
+  const charIndexRef = useRef(0);
+  const deletingRef = useRef(false);
+  const timeoutRef = useRef();
 
   useEffect(() => {
     const el = roleRef.current;
     if (!el) return;
-    let timeout;
 
     const type = () => {
-      const current = ROLES[roleIndex];
-      if (!deleting) {
-        el.textContent = current.slice(0, charIndex + 1);
-        charIndex++;
-        if (charIndex === current.length) {
-          deleting = true;
-          timeout = setTimeout(type, 1800);
+      const current = ROLES[roleIndexRef.current];
+      if (!deletingRef.current) {
+        el.textContent = current.slice(0, charIndexRef.current + 1);
+        charIndexRef.current += 1;
+        if (charIndexRef.current === current.length) {
+          deletingRef.current = true;
+          timeoutRef.current = setTimeout(type, 1800);
           return;
         }
       } else {
-        el.textContent = current.slice(0, charIndex - 1);
-        charIndex--;
-        if (charIndex === 0) {
-          deleting = false;
-          roleIndex = (roleIndex + 1) % ROLES.length;
+        el.textContent = current.slice(0, charIndexRef.current - 1);
+        charIndexRef.current -= 1;
+        if (charIndexRef.current === 0) {
+          deletingRef.current = false;
+          roleIndexRef.current = (roleIndexRef.current + 1) % ROLES.length;
         }
       }
-      timeout = setTimeout(type, deleting ? 60 : 100);
+      timeoutRef.current = setTimeout(type, deletingRef.current ? 60 : 100);
     };
 
-    timeout = setTimeout(type, 500);
-    return () => clearTimeout(timeout);
+    timeoutRef.current = setTimeout(type, 500);
+    return () => clearTimeout(timeoutRef.current);
   }, []);
 
   const scrollDown = () => {

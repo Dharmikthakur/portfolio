@@ -40,6 +40,7 @@ export default function Projects() {
           {filtered.map(project => (
             <article key={project.id} className={`glass-card ${styles.card}`}>
               <div className={styles.imgWrap}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={project.image} alt={project.title} className={styles.img} loading="lazy" />
                 {project.featured && <span className={styles.featuredBadge}>⭐ Featured</span>}
               </div>
