@@ -82,7 +82,7 @@ export default function About() {
           ))}
         </div>
       </div>
-      {/* testing  */}
+      // dharmik commit it 
     </section>
   );
 }
