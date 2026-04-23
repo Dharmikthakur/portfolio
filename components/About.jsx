@@ -24,7 +24,16 @@ export default function About() {
           <div className={styles.visual}>
             <div className={styles.avatarWrap}>
               <div className={styles.avatar}>
-                <span className={styles.avatarInitials}>D</span>
+                {/* Add avatar image if exists, otherwise show fallback initials */}
+                <img 
+                  src="/dharmik.jpg" 
+                  alt="Dharmik Thakur" 
+                  className={styles.avatarImage} 
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                  }} 
+                />
+                <span className={styles.avatarInitials}>DT</span>
               </div>
               <div className={styles.avatarRing} />
               <div className={styles.floatingBadge}>
