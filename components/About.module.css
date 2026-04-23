@@ -27,7 +27,7 @@
   justify-content: center;
   position: relative;
   z-index: 1;
-  overflow: hidden; /* Ensure image stays within circle */
+  overflow: hidden;
 }
 
 .avatarImage {
