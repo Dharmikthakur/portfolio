@@ -90,7 +90,7 @@ export default function Hero() {
           <a href="https://twitter.com/dharmikthakur" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Twitter">
             <FiTwitter />
           </a>
-          <a href="mailto:dharmik@email.com" className={styles.socialLink} aria-label="Email">
+          <a href="mailto:dharmikthakur@email.com" className={styles.socialLink} aria-label="Email">
             <HiOutlineMail />
           </a>
         </div>
