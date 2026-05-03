@@ -11,15 +11,11 @@ import { FallingPattern } from "@/components/ui/falling-pattern";
 export default function Home() {
   return (
     <>
-      <div className="fixed inset-0 -z-10">
-        <FallingPattern
-          color="#0066ff"
-          duration={120}
-          blurIntensity="0.4rem"
-          density={1.5}
-          className="opacity-50"
-        />
-      </div>
+      <FallingPattern
+        color="#a78bfa"
+        density={1.8}
+        speed={0.8}
+      />
 
       <Navbar />
       <main className="relative">
