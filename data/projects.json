@@ -13,23 +13,23 @@
 
   {
     "id": 2,
-    "title": "E-Commerce Platform",
-    "description": "A modern e-commerce platform with product management, cart, Stripe payments, and an admin dashboard. Built with React and Node.js.",
+    "title": "blogging website",
+    "description": "Full-stack blogging platform with authentication and dynamic content management",
     "techStack": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
-    "githubUrl": "https://github.com/dharmikthakur",
-    "liveUrl": "https://ecommerce.vercel.app",
+    "image": "/blog.png",
+    "githubUrl": "https://github.com/Dharmikthakur/blog-website-.git",
+    "liveUrl": "https://blog-website-8o6d.vercel.app/",
     "category": "Web",
     "featured": true
   },
   {
     "id": 3,
-    "title": "Task Manager App",
-    "description": "A productivity-focused task management app with drag-and-drop boards, priority labels, deadlines, and team collaboration features.",
+    "title": "To Do List",
+    "description": "A To-Do Application where users can efficiently manage their daily tasks and stay organized",
     "techStack": ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&q=80",
-    "githubUrl": "https://github.com/dharmikthakur",
-    "liveUrl": "https://taskmanager.vercel.app",
+    "image": "to do.png",
+    "githubUrl": "https://github.com/Dharmikthakur/to-do-app.git",
+    "liveUrl": "https://to-do-app-ochre-mu.vercel.app/",
     "category": "Web",
     "featured": false
   },
