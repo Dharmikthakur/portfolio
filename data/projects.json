@@ -51,7 +51,7 @@
     "techStack": ["Next.js", "Framer Motion", "Nodemailer", "CSS"],
     "image": "/portfolio.png",
     "githubUrl": "https://github.com/Dharmikthakur/portfolio.git",
-    "liveUrl": "#",
+    "liveUrl": "https://dharmikk-portfolio-24.vercel.app/",
     "category": "Web",
     "featured": true
   },

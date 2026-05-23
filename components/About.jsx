@@ -1,4 +1,5 @@
 'use client';
+import { useState, useEffect } from 'react';
 import styles from './About.module.css';
 import { FiCode, FiAward, FiCoffee, FiHeart } from 'react-icons/fi';
 
@@ -10,6 +11,13 @@ const stats = [
 ];
 
 export default function About() {
+  const [imageError, setImageError] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <section id="about">
       <div className="container">
@@ -22,23 +30,26 @@ export default function About() {
         <div className={styles.grid}>
           {/* Avatar / Visual */}
           <div className={styles.visual}>
-            <div className={styles.avatarWrap}>
-              <div className={styles.avatar}>
-                {/* Add avatar image if exists, otherwise show fallback initials */}
-                <img 
-                  src="/dharmik.jpg" 
-                  alt="Dharmik Thakur" 
-                  className={styles.avatarImage} 
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                  }} 
-                />
-                <span className={styles.avatarInitials}>DT</span>
+            <div className={styles.avatarContainer}>
+              <div className={styles.avatarWrap}>
+                <div className={styles.avatar}>
+                  {/* Add avatar image if exists, otherwise show fallback initials */}
+                  {mounted && !imageError && (
+                    <img 
+                      src="/dharmik.jpg" 
+                      alt="Dharmik Thakur" 
+                      className={styles.avatarImage} 
+                      onError={() => setImageError(true)} 
+                    />
+                  )}
+                  <span className={styles.avatarInitials}>DT</span>
+                </div>
+                <div className={styles.avatarRing} />
+                <div className={styles.floatingBadge}>
+                  <FiCode /> Full Stack Dev
+                </div>
               </div>
-              <div className={styles.avatarRing} />
-              <div className={styles.floatingBadge}>
-                <FiCode /> Full Stack Dev
-              </div>
+              <h3 className={styles.avatarName}>Dharmik Thakur</h3>
             </div>
           </div>
 
