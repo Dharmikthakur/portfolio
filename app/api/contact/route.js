@@ -23,8 +23,9 @@ export async function POST(request) {
 
     // Email to you (portfolio owner)
     await transporter.sendMail({
-      from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`,
+      from: `"${name} (Portfolio Contact)" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER,
+      replyTo: email,
       subject: `💌 New message from ${name} via Portfolio`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #0a0a0f; color: #f8fafc; border-radius: 12px;">
