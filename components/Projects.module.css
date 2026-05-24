@@ -22,7 +22,7 @@
 .filterBtn:hover { background: var(--bg-card-hover); color: var(--text-primary); }
 
 .activeFilter {
-  background: rgba(139,92,246,0.15) !important;
+  background: rgba(224,32,32,0.18) !important;
   border-color: var(--accent-primary) !important;
   color: var(--accent-primary) !important;
 }

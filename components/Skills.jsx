@@ -11,9 +11,9 @@ const ICONS = {
 };
 
 const CATEGORY_MAP = {
-  frontend: { label: 'Frontend', color: '#8b5cf6' },
-  backend: { label: 'Backend', color: '#06b6d4' },
-  tools: { label: 'Tools & DevOps', color: '#f59e0b' },
+  frontend: { label: 'Frontend', color: '#e02020' },
+  backend: { label: 'Backend', color: '#f97316' },
+  tools: { label: 'Tools & DevOps', color: '#fbbf24' },
 };
 
 export default function Skills() {

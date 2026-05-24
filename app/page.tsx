@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <FallingPattern
-        color="#a78bfa"
+        color="#e02020"
         density={1.8}
         speed={0.8}
       />
