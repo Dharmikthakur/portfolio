@@ -35,12 +35,12 @@
   },
   {
     "id": 4,
-    "title": "Weather Dashboard",
-    "description": "A real-time weather dashboard with 7-day forecasts, location search, and interactive charts using OpenWeather API.",
+    "title": "E voting website",
+    "description": "An E-Voting Web Application where users can securely log in and cast their vote for their preferred candidate.",
     "techStack": ["React", "Chart.js", "OpenWeather API", "CSS Modules"],
-    "image": "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
-    "githubUrl": "https://github.com/dharmikthakur",
-    "liveUrl": "https://weather.vercel.app",
+    "image": "e voting.png",
+    "githubUrl": "https://github.com/Dharmikthakur/E-voting-system-.git",
+    "liveUrl": "https://e-voting-system-gilt.vercel.app/",
     "category": "API",
     "featured": false
   },
@@ -57,12 +57,12 @@
   },
   {
     "id": 6,
-    "title": "Chat Application",
-    "description": "A real-time chat application with rooms, private messages, and emoji support. Built with Socket.IO and Express.",
+    "title": "Zomato clone",
+    "description": "Built a responsive Zomato-inspired landing page using HTML, CSS, and JavaScript.",
     "techStack": ["React", "Socket.IO", "Express", "Node.js", "MongoDB"],
-    "image": "https://images.unsplash.com/photo-1611746869696-d09bce200020?w=800&q=80",
-    "githubUrl": "https://github.com/dharmikthakur",
-    "liveUrl": "https://chat.vercel.app",
+    "image": "xomato.png",
+    "githubUrl": "https://github.com/Dharmikthakur/zomato-clone.git",
+    "liveUrl": "https://zomato-clone-six-tau.vercel.app/",
     "category": "Web",
     "featured": false
   }
