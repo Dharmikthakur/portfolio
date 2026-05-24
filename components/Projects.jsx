@@ -19,7 +19,6 @@ export default function Projects() {
     <section id="projects">
       <div className="container">
         <div className="section-header">
-          <div className="section-badge">💼 Portfolio</div>
           <h2 className="section-title">My Projects</h2>
           <p className="section-subtitle">Things I&apos;ve built, shipped, and learned from</p>
         </div>
