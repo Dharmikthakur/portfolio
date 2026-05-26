@@ -12,6 +12,7 @@ const SOCIALS = [
   { icon: <FiGithub />, label: 'GitHub', href: 'https://github.com/dharmikthakur' },
   { icon: <FiLinkedin />, label: 'LinkedIn', href: 'https://linkedin.com/in/dharmikthakur' },
   { icon: <FiTwitter />, label: 'Twitter', href: 'https://twitter.com/dharmikthakur' },
+  { icon: <FiMail />, label: 'Email', href: 'mailto:dharmikthakur@email.com' },
 ];
 
 export default function Contact() {
