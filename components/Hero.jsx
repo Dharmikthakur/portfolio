@@ -158,6 +158,7 @@ export default function Hero() {
               Download CV
             </a>
           </div>
+          
 
           {/* Social links */}
           <div className={styles.socials}>
