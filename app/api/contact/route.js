@@ -12,6 +12,17 @@ export async function POST(request) {
       );
     }
 
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      console.error('SMTP configuration error: EMAIL_USER or EMAIL_PASS is missing in environment.');
+      return Response.json(
+        { 
+          success: false, 
+          error: 'Email service is not configured. Please ensure EMAIL_USER and EMAIL_PASS are set in .env.local and restart your dev server.' 
+        },
+        { status: 500 }
+      );
+    }
+
     // Create transporter using Gmail
     const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -70,7 +81,7 @@ export async function POST(request) {
   } catch (error) {
     console.error('Contact form error:', error);
     return Response.json(
-      { success: false, error: 'Failed to send email. Please try again.' },
+      { success: false, error: error.message || 'Failed to send email. Please try again.' },
       { status: 500 }
     );
   }

@@ -18,12 +18,14 @@ const SOCIALS = [
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
+  const [errorMsg, setErrorMsg] = useState('');
 
   const handleChange = e => setForm(prev => ({ ...prev, [e.target.name]: e.target.value }));
 
   const handleSubmit = async e => {
     e.preventDefault();
     setStatus('loading');
+    setErrorMsg('');
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -36,11 +38,13 @@ export default function Contact() {
         setForm({ name: '', email: '', message: '' });
       } else {
         setStatus('error');
+        setErrorMsg(data.error || 'Something went wrong. Please try again or email me directly.');
       }
     } catch {
       setStatus('error');
+      setErrorMsg('Something went wrong. Please try again or email me directly.');
     }
-    setTimeout(() => setStatus('idle'), 5000);
+    setTimeout(() => setStatus('idle'), 8000);
   };
 
   return (
@@ -153,7 +157,7 @@ export default function Contact() {
             )}
             {status === 'error' && (
               <div className={styles.errorMsg}>
-                ❌ Something went wrong. Please try again or email me directly.
+                ❌ {errorMsg}
               </div>
             )}
           </form>
