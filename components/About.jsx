@@ -74,7 +74,7 @@ export default function About() {
               <div className={styles.edItem}>
                 <div className={styles.edDot} />
                 <div>
-                  <div className={styles.edDegree}>Bachelor of Computer Science</div>
+                  <div className={styles.edDegree}>Bachelor of Technology (B.Tech)</div>
                   <div className={styles.edSchool}>Gyan Ganga Institute of Technology and Sciences — 2024 to 2028</div>
                 </div>
               </div>
