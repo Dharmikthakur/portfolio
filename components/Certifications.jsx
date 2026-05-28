@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { FiExternalLink, FiAward } from 'react-icons/fi';
 import styles from './Certifications.module.css';
 
@@ -37,16 +38,15 @@ export default function Certifications() {
                 <h3 className={styles.title}>{cert.title}</h3>
                 <p className={styles.desc}>{cert.description}</p>
 
-                <a
-                  href={cert.credentialUrl}
+                <Link
+                  href={`/certifications/${cert.id}`}
                   target="_blank"
-                  rel="noopener noreferrer"
                   className={styles.credLink}
                   style={{ color: cert.color, borderColor: `${cert.color}40` }}
                 >
                   <FiExternalLink size={14} />
                   View Credential
-                </a>
+                </Link>
               </div>
             </article>
           ))}
