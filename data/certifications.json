@@ -40,7 +40,7 @@
     "description": " This foundational course provides an overview of the cybersecurity landscape, covering essential concepts such as network security, endpoint protection, data security, and identity management. It introduces key security principles and best practices to help learners understand current cyber threats and defensive strategies.",
     "credentialUrl": "https://freecodecamp.org/certification",
     "badge": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=200&q=80",
-    "color": "#0A0A23",
+    "color": "#00B4D8",
     "pdf": "cybersecurity.pdf"
   },
   {
@@ -51,7 +51,7 @@
     "description": "This certificate demonstrates a solid foundation in cloud computing concepts and Microsoft Azure services. It covers essential areas such as cloud infrastructure, virtual networks, storage, compute services, security best practices, and identity and access management within the Azure ecosystem.",
     "credentialUrl": "https://university.mongodb.com",
     "badge": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&q=80",
-    "color": "#00684A",
+    "color": "#0089D6",
     "pdf": "cloud computing.pdf"
   },
   {
@@ -62,7 +62,7 @@
     "description": " This introductory course provides a comprehensive overview of the Internet of Things (IoT) ecosystem, covering fundamental concepts, key technologies, and real-world applications. It explores how everyday devices are connected to the internet, enabling data exchange and intelligent automation.",
     "credentialUrl": "https://freecodecamp.org/certification",
     "badge": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=200&q=80",
-    "color": "#0A0A23",
+    "color": "#9333EA",
     "pdf": "iot.pdf"
   }
 ]
