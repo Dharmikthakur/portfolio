@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 
 type FallingPatternProps = {
-  /** Color of the falling pixels (default: '#a78bfa') */
+  /** Color of the falling pixels (default: '#e02020') */
   color?: string;
   /** How many pixel columns (default: 1) */
   density?: number;
@@ -35,7 +35,7 @@ function hexToRgb(hex: string): { r: number; g: number; b: number } {
 }
 
 export function FallingPattern({
-  color = '#a78bfa',
+  color = '#e02020',
   density = 1,
   speed = 1,
   className,
