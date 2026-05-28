@@ -23,6 +23,12 @@ export async function POST(request) {
       );
     }
 
+    console.log('Attempting to send email with:', {
+      user: process.env.EMAIL_USER,
+      passLength: process.env.EMAIL_PASS ? process.env.EMAIL_PASS.length : 0,
+      passPrefix: process.env.EMAIL_PASS ? process.env.EMAIL_PASS.substring(0, 3) + '...' : 'none'
+    });
+
     // Create transporter using Gmail
     const transporter = nodemailer.createTransport({
       service: 'gmail',
