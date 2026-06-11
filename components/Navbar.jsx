@@ -59,7 +59,7 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a href="/resume.pdf" download className="btn-primary" style={{ padding: '10px 24px', fontSize: '14px' }}>
+            <a href="/Dharmik thakur resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '10px 24px', fontSize: '14px' }}>
               Resume
             </a>
           </li>

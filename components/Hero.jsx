@@ -153,9 +153,9 @@ export default function Hero() {
               <FiArrowRight className={styles.btnIcon} />
             </a>
 
-            <a href="/resume.pdf" download className={styles.secondaryBtn}>
-              <FiDownload />
-              Download CV
+            <a href="/Dharmik thakur resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.secondaryBtn}>
+              <FiExternalLink />
+              View CV
             </a>
           </div>
           

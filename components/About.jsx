@@ -84,8 +84,8 @@ export default function About() {
               <a href="#contact" className="btn-primary" onClick={e => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}>
                 Let&apos;s Work Together
               </a>
-              <a href="/resume.pdf" download className="btn-secondary">
-                Download CV
+              <a href="/Dharmik thakur resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                View CV
               </a>
             </div>
           </div>
